@@ -1,14 +1,11 @@
 # Robot design resources
 
-ECE4191/ ENG5105 is a design unit at Monash University, where students are required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and a crash course in object detection. 
+ENG5105 is a design unit at Monash University, where students are required to design and prototype something cool using a Raspberry PI, and additional sensors, microcontrollers and actuatros. This year students are tasked with making baby monitors. This repository contains a set of useful jupyter notebooks to get started with the Raspberry PI.
 
-* [Robot navigation and control](https://github.com/mgb45/ECE3091_resources/blob/main/Robot_navigation_and_control.ipynb)
-* [Getting frames from the Pi Camera](https://github.com/mgb45/ECE3091_resources/blob/main/Camera_image_retrieval.ipynb)
-* [Simple blob (colour/shape) detection strategy](https://github.com/mgb45/ECE3091_resources/blob/main/Image_processing_detection_strategy.ipynb)
-* [Simple CNN (2D regression) detection strategy](https://github.com/mgb45/ECE3091_resources/blob/main/Machine_learning_detection_strategy.ipynb)
+* [Servo motor control](https://github.com/MonashRobotics/ENG5105/blob/main/Servo_motor_control.ipynb)
+* [Getting frames from the Pi Camera](https://github.com/MonashRobotics/ENG5105/blob/main/Camera_image_retrieval.ipynb)
 
 There are also some nice [c++ programming resources](./cpp_resources) if you prefer to program using this language.
-
 
 # Setting up your raspberry pi to run these notebooks
 
@@ -34,13 +31,13 @@ sudo apt-get install git python3-scipy jupyter libatlas-base-dev avahi-daemon tm
 
 Since we've installed the [avahi-daemon](http://avahi.org/), it's a good idea to change the hostname to something unique, eg. `ECE4191GROUPNO`. Use the command 
 ```
-hostnamectl set-hostname ECE4191GROUPNO
+hostnamectl set-hostname ECE5105GROUPNO
 ```
 to do this. You may need to reboot `sudo reboot` for this to take effect.
 
 Now, assuming you're on the same network, logging in to the pi remotely will be a lot easier going forward, just using:
 ```
-ssh ubuntu@ECE4191GROUPNO.local
+ssh ubuntu@ECE5105GROUPNO.local
 ```
 
 Ok, lets continue to install some more packages on the pi.
@@ -52,7 +49,7 @@ pip3 install --user numpy --upgrade
 
 Next, we'll clone this repository
 ```
-git clone https://github.com/MonashRobotics/ECE4191/
+git clone https://github.com/MonashRobotics/ECE5105/
 ```
 
 # Running the notebooks
