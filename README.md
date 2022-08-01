@@ -1,4 +1,4 @@
-# Robot design resources
+# Design resources
 
 ENG5105 is a design unit at Monash University, where students are required to design and prototype something cool using a Raspberry PI, and additional sensors, microcontrollers and actuatros. This year students are tasked with making baby monitors. This repository contains a set of useful jupyter notebooks to get started with the Raspberry PI.
 
