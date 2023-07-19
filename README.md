@@ -1,6 +1,6 @@
 # Design resources
 
-ENG5105 is a design unit at Monash University, where students are required to design and prototype something cool using a Raspberry PI, and additional sensors, microcontrollers and actuatros. This year students are tasked with making baby monitors. This repository contains a set of useful jupyter notebooks to get started with the Raspberry PI.
+ENG5105 is a design unit at Monash University, where students are required to design and prototype something cool using a Raspberry PI, and additional sensors, microcontrollers and actuatros. This year students are tasked with making wildlife monitors. This repository contains a set of useful jupyter notebooks to get started with the Raspberry PI.
 
 * [Servo motor control](https://github.com/MonashRobotics/ENG5105/blob/main/Servo_motor_control.ipynb)
 * [Getting frames from the Pi Camera](https://github.com/MonashRobotics/ENG5105/blob/main/Camera_image_retrieval.ipynb)
